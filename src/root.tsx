@@ -7,6 +7,7 @@ import {
 
 import { RouterHead } from "./components/router-head/router-head";
 import { TailwindIndicator } from "./components/tailwind-indicator";
+import { ThemeScript } from "./components/theme";
 
 import "./global.css";
 
@@ -24,6 +25,7 @@ export default component$(() => {
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
+        <ThemeScript />
       </head>
       <body lang="en">
         <RouterOutlet />

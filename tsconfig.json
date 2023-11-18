@@ -19,7 +19,7 @@
     "types": ["node", "vite/client"],
     "paths": {
       "~/*": ["./src/*"],
-      "~public/*": ["./public/*"]
+      "~/public/*": ["./public/*"]
     }
   },
   "files": [".eslintrc.cjs", "postcss.config.cjs"],

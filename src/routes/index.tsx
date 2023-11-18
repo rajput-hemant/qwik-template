@@ -12,7 +12,8 @@ import {
   LuFlameKindling,
   LuGithub,
 } from "@qwikest/icons/lucide";
-import QwikLogo from "~public/favicon.svg?jsx";
+
+import QwikLogo from "~/public/favicon.svg?jsx";
 
 const packageManagers = {
   bun: "bunx",
@@ -86,8 +87,8 @@ export default component$(() => {
   });
 
   return (
-    <main class="layout min-h-screen w-full bg-[#141414] bg-fixed text-white selection:bg-zinc-300 selection:text-black">
-      <section class="container px-4 py-12 md:px-6 md:pt-24 lg:pt-32 xl:pt-48">
+    <main class="layout grid min-h-screen w-full place-items-center bg-[#141414] bg-fixed text-white selection:bg-zinc-300 selection:text-black">
+      <section class="px-4">
         <QwikLogo
           alt="Next.js logo"
           class="w-2h-28 mx-auto mb-6 h-28 md:max-w-full"
@@ -175,12 +176,13 @@ export default component$(() => {
       </section>
 
       <footer class="absolute inset-x-0 bottom-4 flex justify-center">
-        <em class="bg-gradient-to-r from-sky-500 to-purple-400 bg-clip-text text-transparent">
+        <em class="text-zinc-500">
           &copy;{new Date().getFullYear()}{" "}
           <a
             href="https://github.com/rajput-hemant"
             target="_blank"
             rel="noopener noreferrer"
+            class="underline-offset-4 duration-150 hover:text-zinc-400 hover:underline"
           >
             rajput-hemant@github
           </a>

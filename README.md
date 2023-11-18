@@ -55,8 +55,6 @@ git commit --no-verify -m "init"
 
 Check out the [package.json](package.json) for all available scripts.
 
-## Folder Structure
-
 ## After Installation Checklist
 
 - [ ] Update `package.json` with your project details.
