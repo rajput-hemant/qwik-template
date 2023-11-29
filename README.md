@@ -1,6 +1,6 @@
 <div align=center>
 
-![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
+[![ntl-badge]][ntl-link] ![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
 
 <img src="public/favicon.svg" alt="Qwik Logo" style="width:150px; height:150px"/>
 
@@ -65,6 +65,19 @@ Check out the [package.json](package.json) for all available scripts.
 
 This template uses [bun](https://bun.sh/docs/cli/install) as the default package manager. If you want to use `pnpm`, `npm` or `yarn`, you need to remove the `bun.lockb` file and run `pnpm i`, `npm i` or `yarn` to generate the lock file for the respective package manager.
 
+## Deployments
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/rajput-hemant/qwik-template)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/rajput-hemant/qwik-template)
+
+You can also check out other deployment options, run
+
+```
+bun qwik add
+```
+
+[Read more](https://qwik.builder.io/docs/deployments)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -90,3 +103,5 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [contributors]: https://contrib.rocks/image?repo=rajput-hemant/qwik-template&max=500
 [contributors-graph]: https://github.com/rajput-hemant/qwik-template/graphs/contributors
 [contrib-rocks]: https://contrib.rocks/preview?repo=rajput-hemant%qwik-template
+[ntl-badge]: https://api.netlify.com/api/v1/badges/f7d5e7dd-5592-4d64-9668-eac70d4a201e/deploy-status
+[ntl-link]: https://app.netlify.com/sites/react-template-vite/deploys

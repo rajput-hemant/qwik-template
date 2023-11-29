@@ -6,8 +6,8 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.server": "vite build -c adapters/vercel-edge/vite.config.ts",
-    "deploy": "vercel deploy",
+    "build.server": "vite build -c adapters/netlify-edge/vite.config.ts",
+    "deploy": "netlify deploy --build",
     "dev": "vite --mode ssr",
     "dev:debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
@@ -30,6 +30,7 @@
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@netlify/edge-functions": "^2.0.0",
     "@types/eslint": "^8.44.4",
     "@types/node": "^20.8.4",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
@@ -41,6 +42,7 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.0.2",
+    "netlify-cli": "^15.0.0",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
@@ -54,9 +56,6 @@
   "trustedDependencies": [
     "sharp"
   ],
-  "engines": {
-    "node": ">=15.0.0"
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -67,5 +66,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": ">=15.0.0"
   }
 }
