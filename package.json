@@ -13,11 +13,11 @@
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
-    "prepare": "husky install",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
     "type-check": "tsc --incremental --noEmit",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "prepare": "husky"
   },
   "dependencies": {
     "@qwikest/icons": "^0.0.13",
