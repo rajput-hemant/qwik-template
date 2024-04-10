@@ -87,12 +87,9 @@ export default component$(() => {
   });
 
   return (
-    <main class="layout grid min-h-screen w-full place-items-center bg-[#141414] bg-fixed text-white selection:bg-zinc-300 selection:text-black">
+    <main class="layout grid min-h-screen w-full place-items-center bg-black bg-fixed text-white selection:bg-zinc-300 selection:text-black">
       <section class="px-4">
-        <QwikLogo
-          alt="Next.js logo"
-          class="w-2h-28 mx-auto mb-6 h-28 md:max-w-full"
-        />
+        <QwikLogo class="w-2h-28 mx-auto mb-6 h-28 md:max-w-full" />
 
         <div class="grid items-center gap-6">
           <div class="flex flex-col justify-center space-y-4 text-center">
@@ -121,9 +118,9 @@ export default component$(() => {
                   class="text-zinc-400 transition-colors hover:text-white"
                 >
                   {isCopied.value ? (
-                    <LuClipboardCheck class="h-5 w-5" />
+                    <LuClipboardCheck class="size-5" />
                   ) : (
-                    <LuClipboard class="h-5 w-5" />
+                    <LuClipboard class="size-5" />
                   )}
                 </button>
               </p>
@@ -157,7 +154,7 @@ export default component$(() => {
                 rel="noopener noreferrer"
                 class="flex rounded-full border border-zinc-700 px-6 py-3 duration-300 hover:bg-white/10 hover:shadow-md hover:shadow-black"
               >
-                <LuFlameKindling class="mr-2 h-5 w-5" />
+                <LuFlameKindling class="mr-2 size-5" />
                 Use Template
               </a>
 
@@ -167,7 +164,7 @@ export default component$(() => {
                 rel="noopener noreferrer"
                 class="flex rounded-full border border-zinc-700 px-6 py-3 duration-300 hover:bg-white/10 hover:shadow-md hover:shadow-black"
               >
-                <LuGithub class="mr-2 h-5 w-5 " />
+                <LuGithub class="mr-2 size-5 " />
                 View Repo
               </a>
             </div>
