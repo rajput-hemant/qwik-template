@@ -44,7 +44,7 @@
     "eslint-plugin-tailwindcss": "^3.17.4",
     "husky": "^9.1.1",
     "lint-staged": "^15.2.7",
-    "netlify-cli": "^15.11.0",
+    "netlify-cli": "^17.33.4",
     "postcss": "^8.4.39",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
