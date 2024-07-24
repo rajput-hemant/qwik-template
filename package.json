@@ -42,7 +42,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-qwik": "^1.7.1",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "husky": "^8.0.3",
+    "husky": "^9.1.1",
     "lint-staged": "^15.2.7",
     "netlify-cli": "^15.11.0",
     "postcss": "^8.4.39",
