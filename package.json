@@ -24,7 +24,7 @@
   "dependencies": {
     "@qwikest/icons": "^0.0.13",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.6.0"
+    "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.12.0",
